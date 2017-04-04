@@ -40,5 +40,8 @@ Route::get('/page', function () {
     //3 controller andd his method
 });
 
+Route::post('' , Function(){
+
+});
 
 
