@@ -25,12 +25,11 @@ Route::get('/', function () {
 //rout page 
 Route::get('/page', function () {
     echo '<pre>';
-    //print_r($_ENV);
-    //echo config('app.locale');
-    //echo config::set('app.locale','ru');
-    //echo config::get('app.locale');
-    //echo env('APP_ENV');
-
+    //print_r($_ENV);+
+    //echo config('app.locale');+
+    //echo config::set('app.locale','ru');-
+    //echo config::get('app.locale');-
+    //echo env('APP_ENV');+
 
     echo '</pre>';
 
@@ -40,7 +39,9 @@ Route::get('/page', function () {
     //3 controller andd his method
 });
 
-Route::post('' , Function(){
+Route::post('/comments',function () {
+
+    print_r($_POST);
 
 });
 
